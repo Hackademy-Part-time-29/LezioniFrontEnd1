@@ -1,0 +1,85 @@
+ctrl + s
+
+ctrl + a    seleziona tutto
+
+ctrl + c    copia
+ctrl + x    taglia
+ctrl + v    incolla
+
+
+
+
+
+Elementi HTML
+<tagname attribute1="value1" attribute2="value2">Content</tagname>
+
+
+
+self closing tags
+
+
+
+headings
+h1 h2 h3 ... h6
+
+
+
+
+http://127.0.0.1:5500/index.html
+/Users/kutta/Desktop/HPT29/Lezione2/index.html
+
+
+http://127.0.0.1:5500/users/andrea.html
+/Users/kutta/Desktop/HPT29/Lezione2/users/andrea.html
+
+
+
+http://127.0.0.1:5500/andrea.html
+/Users/kutta/Desktop/HPT29/Lezione2/andrea.html
+
+
+
+
+https://en.wikipedia.org/wiki/Microsoft_Copilot
+
+
+
+
+
+
+
+design principle - Separation of Concerns
+suddividere una applicazione in differenti moduli aventi ognuno una specifica concern
+
+Concern un aspetto (una feature, preoccupazione) dell'applicazione
+
+
+
+frontend (web)
+    HTML
+    CSS
+    JavaScript
+
+backend (sviluppo del server)
+    PHP
+    Laravel
+    MySQL
+
+
+
+
+block level element
+    occupano tutto lo spazio orizzontale messo a dispozione dall'elemento parent
+    impilati in verticale uno sotto l'altro 
+
+    div
+    h1, h2 ... h6, p
+    ul, li
+
+
+inline level element
+    occupano solo lo spazio strettamente necessario a contenere il proprio contenuto
+    impilati in orizzontale uno di fianco all'altro
+
+    span
+    a
