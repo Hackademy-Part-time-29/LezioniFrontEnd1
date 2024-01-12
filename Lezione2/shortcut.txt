@@ -82,4 +82,28 @@ inline level element
     impilati in orizzontale uno di fianco all'altro
 
     span
+    strong, em
     a
+
+
+regole degli elementi block level:
+    sia del testo
+    sia elementi block level
+    sia elementi inline level
+
+eccezione alle regole degli elementi block level:
+    h1, h2 ... h6 e p non possono contenere al loro interno altri elementi block
+
+regole degli elementi inline level:
+    sia del testo
+    sia elementi inline level
+
+
+
+I tag semantici si comportano come se fossero dei div e questi sono:
+nav
+header
+main
+section
+article
+footer
