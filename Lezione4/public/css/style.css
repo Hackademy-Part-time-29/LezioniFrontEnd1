@@ -1,0 +1,11 @@
+* {
+ font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-red:active {
+    background-color: blue;
+}
