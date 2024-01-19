@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 24px;
+}
+
+.full {
+    width: 100%;
+}
+
+.card {
+    margin: 24px 0;
+    box-shadow: 0px 0px 16px -2px #000000;
+    border-radius: 12px;
+    padding: 48px 24px;
+}
+
+
+
+@media screen and (min-width: 500px) {
+
+    .container {
+        margin: 48px;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .semi {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .tre {
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+
+    .quarto {
+        width: 25%;
+    }
+}
