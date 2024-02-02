@@ -1,0 +1,62 @@
+:root {
+    --img-width: 200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sky {
+   height: 60vh;
+   background-color: aqua;
+}
+
+.half-road {
+    height: 20vh;
+    background-color: gray;
+
+}
+
+.bottom-half-road {
+    border-top: 4px dashed white;
+}
+
+.mario, .luigi {
+    display: inline-block;
+    width: var(--img-width);
+
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.mario {
+    animation-name: marioDrive;
+}
+
+.luigi {
+    animation-name: luigiDrive;
+}
+
+@keyframes marioDrive {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(calc(100vw - var(--img-width)));
+    }
+}
+
+@keyframes luigiDrive {
+    0% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(calc(100vw - var(--img-width)));
+    }
+}
